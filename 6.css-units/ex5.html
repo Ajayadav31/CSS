@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>rem vs em</title>
+    <style>
+        ul{
+            font-size: 0.5em;
+            /*font-size: 0.5rem*/
+        }
+    </style>
+</head>
+<body>
+    <ul><!--for em this ul font size will be 16px*0.5=8px also for rem -->
+        <li>C++</li>
+        <li>Java</li>
+        <ul><!--for em this ul font size will be 8px*0.5=4px(chrome not goes down below 6px so if you inspect thi you will se 6px) but for rem px calculated based on rrot element so font size will be 8px-->
+            <li>Core Java</li>
+            <li>Adv Java</li>
+        </ul>
+    </ul>
+</body>
+</html>

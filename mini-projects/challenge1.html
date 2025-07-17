@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building navigation bar using css</title>
+    <style>
+        /*By me*/
+        body{
+            font-family: Arial;
+        }
+        p#navbar{
+            background-color: lightgray;
+            line-height: 40px;
+            text-align: right;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(86, 71, 71);
+            text-align: right;
+            padding: 10px 20px;
+        }
+        a#menu:link{
+            color:#ff0000;
+            text-decoration: none;
+        }
+        p a:hover{
+            background-color: rgba(117, 113, 113);
+        }
+    </style>
+</head>
+<body>
+    <p id="navbar">
+        <a id="menu" href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Products</a>
+        <a href="#">Services</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+    </p>
+    <p><b>Note:</b>Place mouse pointer over the menu link to see the hover effect</p>
+</body>
+</html>

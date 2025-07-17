@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setting the style of unordered linst marker</title>
+    <style>
+        body{
+            font-size: 14px;
+            font-family: Arial,sans-serif;
+        }
+        ol li{
+            background-color: #ddd;
+            padding:5px;
+        }
+        ol.in li{
+            list-style-position: inside;
+        }
+        ol.out li{
+            list-style-position: outside;
+        }
+    </style>
+</head>
+<body>
+    <h2>List Marker Position-Inside</h2>
+    <ol class="in">
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, odio?</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet consectetur.</li>
+    </ol>
+    <h2>List Marker Position-OutSide</h2>
+    <ol>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, velit.</li>
+        <li>Lorem ipsum dolor sit amet consectetur.</li>
+    </ol>
+</body>
+</html>
