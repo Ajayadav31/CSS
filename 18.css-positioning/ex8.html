@@ -5,7 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Absolute positioning imp note</title>
     <style>
-
+        /*An absolutely positioned element is  posisined relative to the first parent element that has a position other than static
+        
+        if no such element is found it will be positioned on  page realtive to the top-left corner of the browser window*/
+        #main{
+            width: 350px;
+            height: 300px;
+            margin-top: 200px;
+            background-color: lightblue;
+            border: 1px solid #000;
+            padding: 20px;
+            position: relative;
+        }
+        .container{
+            background-color: #ccc;
+            width: 300px;
+            border: 1px solid #000;
+            padding: 20px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
     </style>
 </head>
 <body>
